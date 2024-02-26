@@ -1,0 +1,125 @@
+
+.available-container {
+  text-align: center;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.soh {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 20px;
+  width: calc(30% - 40px);
+  height: 380px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  background-color: white;
+}
+
+.result-item {
+  border: 1px solid #ddd;
+}
+
+
+
+.result-item.Pizza {
+  background-image: url('./images/Pizza.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Noodles {
+  background-image: url('./images/Noodles.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Paneer {
+  background-image: url('./images/Paneer Masala.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Idli {
+  background-image: url('./images/Idli Dosa.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Burger {
+  background-image: url('./images/Burger.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Dal {
+  background-image: url('./images/Dal Rice.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Biryani {
+  background-image: url('./images/Biryani.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Paratha {
+  background-image: url('./images/Paratha.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Chole {
+  background-image: url('./images/Chole Bhature.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.result-item.Chicken {
+  background-image: url('./images/Chicken Masala.jpg');
+  margin-top: 100px;
+  height: 150px;
+  width: 90%;
+  background-size: cover;
+}
+
+.top-section {
+  margin-top: -100px;
+}
+
+.bottom-section {
+  margin-top: 170px;
+}

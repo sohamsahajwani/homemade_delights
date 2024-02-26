@@ -1,0 +1,80 @@
+.Home {
+  margin: -8px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Hide overflow to prevent scrollbars */
+  background: #FAFAEB;
+  color: black;
+  background-image: url('./images/ocean6.jpg');
+}
+
+.project-info {
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)); */
+  background: transparent;
+}
+
+.project-info h1 {
+  margin-bottom: 5px; /* Adjust the margin-bottom as needed */
+}
+
+.left-right-half {
+  display: flex;
+  height: 80%; /* Utilize 80% of the container height */
+}
+
+.left-half,
+.right-half {
+  display: flex; /* Make both left-half and right-half flex containers */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Increase the width to 55% */
+  height: 100%; /* Utilize full height of the container */
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 0 25px; /* Add margin between left-half and right-half */
+}
+
+.left-half {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+              url('./images/cook.jpg'); 
+  background-size: cover;
+  color: #1B1B1B;
+}
+
+.right-half {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+              url('./images/food.jpg'); 
+  background-size: cover;
+  color: #1B1B1B;
+}
+
+h3 {
+  white-space: nowrap; /* Prevent line break in h3 */
+}
+
+button {
+  margin-top: 20px; /* Add some spacing */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(76, 156, 183); /* Add a background color */
+  color: #fff;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+  background-color:  rgb(103, 170, 193); /* Change color on hover */
+}

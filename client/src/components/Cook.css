@@ -1,0 +1,120 @@
+/* Cook.css */
+
+/* Body styling with background image */
+.cook-new {
+  margin: -8px;
+  padding: 0;
+  background-image: url('./images/ocean6.jpg'); /* Add the background image URL */
+  background-size: cover; /* Ensure the background image covers the entire body */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; /* Set a default font family */
+  color: white; /* Set default text color to white for better visibility on the background */
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+}
+
+/* Main container styling */
+.cook {
+  width: 300px; /* Set a fixed width for the box */
+  margin: auto;
+  padding: 30px; /* Increase padding for more space inside the box */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);; /* Set the background color to #89CFF0 */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+/* Form styling */
+.cook form {
+  text-align: center;
+}
+
+/* Header styling */
+.cook h4 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.cook .textInput {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Dropdown styling */
+.cook .dropdown {
+  width: 102%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white; /* Set background color for dropdown */
+  color: #555; /* Set text color for dropdown */
+}
+
+/* Button styling */
+.cook .button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(76, 156, 183);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Message styling */
+.cook .message {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Signup section styling */
+.cook .signup {
+  margin-top: 20px;
+}
+
+/* Text styling */
+.cook .siup h6 {
+  font-size: 14px;
+  color: black;
+}
+
+/* Link styling */
+.cook .link-btn {
+  text-decoration: none;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+/* Add styling for the link on hover if needed */
+.cook .link-btn:hover {
+  text-decoration: underline;
+}
+
+/* Add this CSS to your Cook.css file */
+
+/* Popup styling */
+.cook-new .popup {
+  position: fixed;
+  top: 20px; /* Adjust this value to control the distance from the top */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(76, 156, 183); /* Pink background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  border: 2px solid #fff; /* White border */
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1000; /* Make sure it appears above other elements */
+}
+

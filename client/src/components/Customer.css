@@ -1,0 +1,65 @@
+/* Customer.css */
+body {
+  background-image: url('./images/ocean6.jpg');
+  background-size: cover;
+}
+
+
+.customer-new {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  text-align: center;
+  
+}
+
+.customer {
+  display: flex;
+  flex-direction: row;
+}
+
+.customer h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.customer .form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.customer label {
+  font-size: 16px;
+  color: #333;
+  margin-right: 10px;
+}
+
+.customer select,
+.customer input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.customer-new button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customer-new button:hover {
+  background-color: #0056b3;
+}
